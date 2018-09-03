@@ -355,3 +355,13 @@ header.masthead p {
 #next-dances li {
   padding-bottom: .5em;
 }
+
+p.quote {
+  padding: 10px;
+  background-color: #FDFBF3;
+  border-radius: 10px;
+  border-color: #632D95;
+  color: black;
+  font-size: 12px !important;
+  font-style: italic;
+}
