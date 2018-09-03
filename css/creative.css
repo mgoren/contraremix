@@ -279,14 +279,13 @@ header.masthead p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+
+  .mobile-only {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
-  header.masthead {
-    /* background-image: none;
-    background-color: black; */
-  }
-
   .portfolio-box {
     background-color: white;
     padding-bottom: 10px;
@@ -319,6 +318,10 @@ header.masthead p {
   #video .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-weight: bold;
     font-size: 30px;
+  }
+
+  .desktop-only {
+    display: none;
   }
 }
 
