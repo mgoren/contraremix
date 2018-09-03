@@ -298,6 +298,27 @@ header.masthead p {
   #next-dances li {
     margin: 1em !important;
   }
+
+  .portfolio-box .portfolio-box-caption {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  #photo .portfolio-box .portfolio-box-caption:hover {
+    opacity: 0;
+  }
+
+  #video .portfolio-box .portfolio-box-caption {
+    opacity: 1;
+  }
+
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    opacity: 0;
+  }
+
+  #video .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-weight: bold;
+    font-size: 30px;
+  }
 }
 
 .text-primary {
